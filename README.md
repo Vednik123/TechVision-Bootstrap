@@ -1,6 +1,6 @@
 ﻿# TechVision - Blog Website
 
- Website Link -  https://vednik123.github.io/PawPlay-AnimalAPI-Game/
+ Website Link -  https://vednik123.github.io/TechVision-Bootstrap/
 
 This is a simple blog website built using **HTML** and **Bootstrap** with minimal inline CSS. The website includes various Bootstrap components such as a navbar, modal, carousel, buttons, and forms. It features three main sections: **Home**, **About Us**, and **Contact Us**, along with a footer.
 
