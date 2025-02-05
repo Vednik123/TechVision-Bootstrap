@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TechVision - Create a beautiful blog</title>
+    <link rel="shortcut icon" href="https://tse4.mm.bing.net/th?id=OIP.vIjA5vZ6uh6_VznRsd00-wHaEo&pid=Api&P=0&h=180"
+        type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">TechVision</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blogs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Coding</a></li>
+                            <li><a class="dropdown-item" href="#">Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Education</a></li>
+                            <li><a class="dropdown-item" href="#">General</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger ms-2" data-bs-toggle="modal" data-bs-target="#LoginModal">
+                    Log In
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-light">
+                            <div class="modal-header ">
+                                <h1 class="modal-title fs-5" id="LoginModalLabel">Log In</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Form -->
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control bg-light  text-dark"
+                                        id="exampleFormControlInput1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                    <input type="password" class="form-control bg-light text-dark"
+                                        id="exampleFormControlInput1">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Log In</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger ms-2" data-bs-toggle="modal" data-bs-target="#SignInModal">
+                    Sign In
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="SignInModal" tabindex="-1" aria-labelledby="SignInModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-light">
+                            <div class="modal-header ">
+                                <h1 class="modal-title fs-5" id="SignInModalLabel">Log In</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Form -->
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                    <input type="text" class="form-control bg-light  text-dark"
+                                        id="exampleFormControlInput1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Birth Date</label>
+                                    <input type="date" class="form-control bg-light  text-dark"
+                                        id="exampleFormControlInput1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control bg-light  text-dark"
+                                        id="exampleFormControlInput1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                    <input type="password" class="form-control bg-light text-dark"
+                                        id="exampleFormControlInput1">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sign In</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+    <!-- About us -->
+    <div class="container me-4 mt-4">
+        <div class="row featurette my-4">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
+                        class="text-body-secondary">It’ll blow your mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
+                    prose
+                    here.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://fsa2-assets.imgix.net/assets/UNIV/USU/cyber/iStock-1332378618.jpg?auto=compress%2Cformat&crop=focalpoint&domain=fsa2-assets.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&ixlib=php-3.3.0&w=1280"
+                    width="400" height="400" alt="">
+            </div>
+        </div>
+        <div class="row featurette my-4">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
+                        class="text-body-secondary">It’ll blow your mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
+                    prose
+                    here.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Abs5336ZoAydedJqUeuwqgHaEK&pid=Api&P=0&h=180"
+                    width="400" height="400" alt="">
+            </div>
+        </div>
+        <div class="row featurette my-4">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
+                        class="text-body-secondary">It’ll blow your mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some
+                    exciting prose
+                    here.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.DzeDVoXTDb9TPJaGW18otQHaE8&pid=Api&P=0&h=180"
+                    width="400" height="400" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <br><br>
+    <hr style="width: 80%; margin:auto">
+    <br>
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2023–2024 TechVision, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
